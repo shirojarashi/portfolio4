@@ -1,0 +1,311 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #116bad;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    color: #116bad;
+    background-color: #a7daff;
+}
+
+header {
+/*    width: 1000px;*/
+    margin: 0 auto;
+    background-color: #ffefd5;
+    
+}
+
+.logo {
+    margin: -120px auto 0;
+    display: block;
+}
+
+header p {
+    text-align: center;
+    font-size: 20px;
+    color: #1389de;
+    margin-top: -75px;
+
+}
+
+.glb-nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.glb-nav a {
+    font-size: 30px;
+    
+    display: block;
+    color: #1389de;
+    font-weight: 900;
+    border: solid 5px;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+.glb-nav a:hover {
+    background-color: #116bad;
+    color: #ffefd5;
+}
+
+.container {
+    background-color: #ffefd5;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content {
+/*    width: 1000px;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffefd5;
+    border-top: solid 1px #3fa9f5;
+    border-bottom: solid 1px #3fa9f5;
+}
+
+.main {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.section {
+    margin: 100px 0;
+}
+
+.wrap {
+    width: 71.5%;
+    margin: 80px auto 10px;
+}
+
+.url {
+/*    display: block;*/
+/*    margin: 0 auto;*/
+    margin-left: 30px;
+}
+
+.url:hover {
+    border-bottom: solid 1px;
+}
+
+.app-url:hover {
+    border-bottom: solid 1px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: solid 5px #a7daff;
+}
+
+h2 {
+    border-bottom: solid 2.5px #a7dafb;
+}
+
+#about table {
+    margin: 30px auto 0;
+    font-size: 17px;
+}
+
+#about th {
+    padding: 10px 25px 10px 0;
+}
+
+#about td {
+    padding: 10px 0;
+}
+
+.img:hover {
+    opacity: 0.7;
+}
+
+.sp-img {
+    display: none;
+}
+
+.aside {
+    width: 25%;
+    padding-left: 15px;
+    border-left: dotted 3px #3fa9f5;
+}
+
+.side-bar {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.side-bar ul {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 30px 0 0 40px;
+    
+}
+
+.side-bar li {
+    margin-top: 30px;
+} 
+
+.side-bar ul li {
+    margin-top: 15px;
+}
+
+.side-bar a {
+    display: block;
+}
+
+.side-bar a:hover {
+    border-bottom: solid 2px #a7daff;
+}
+
+.maru {
+    color: #a7daff;
+    font-size: 20px;
+    vertical-align: text-bottom;
+    margin-right: 8px;
+
+}
+
+.komaru {
+    color: #a7daff;
+    font-size: 15px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+footer {
+/*    width: 1000px;*/
+    margin: 0 auto;
+    background-color: #ffefd5;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav a {
+    display: block;
+    padding: 5px;
+}
+
+.footer-nav a:hover {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 3px;
+    font-weight: 900;
+}
+
+.right {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        display: block;
+    }
+    
+    .main {
+        width: 95%;
+    }
+    
+    .container {
+        width: 97%;
+    }
+    
+    .img {
+        display: none;
+    }
+    
+    .sp-img {
+        display: block;
+/*        margin: 0 auto;*/
+        margin: 0 auto 10px;
+    }
+    
+    .logo {
+        width: 100%;
+        margin: -25px auto 0;
+    }
+    
+    .url {
+        margin: 0;
+        word-wrap: break-word;
+    }
+    
+    .aside {
+        display: none;
+    }
+    
+    .pc-br {
+        display: none;
+    }
+    
+    header p {
+        font-size: 16px;
+        margin: 0
+    }
+    
+    .glb-nav ul {
+        display: block;
+    }
+    
+    .glb-nav li {
+        margin: 15px;
+    }
+    
+    .glb-nav a {
+        text-align: center;
+    }
+    
+    #about th {
+        display: block;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    #about td {
+        display: block;
+        border-bottom: solid 1px;
+        font-size: 16px;
+    }
+    
+    .wrap {
+        margin-top: 60px;
+        width: 100%;
+    }
+    
+    body {
+        background-color: #fdefd4;
+    }
+    
+    .footer-nav {
+        display: block;
+    }
+    
+    .footer-nav {
+        font-size: 25px;
+    }
+    
+    .footer-nav li:nth-of-type(2n) a {
+        text-align: right;
+        border-right: solid 10px;
+        padding-right: 40px;
+    }
+    
+    .footer-nav li:nth-of-type(2n+1) a {
+        text-align: left;
+        border-left: solid 10px;
+        padding-left: 40px;
+    }
+    
+}
